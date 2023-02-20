@@ -26,9 +26,8 @@ fi
 
 git checkout -b release
 
-npx lerna version major --force-publish --yes --no-push --message "Release: %s"
+npx lerna version minor --force-publish --yes --no-push --message "Release: %s"
 
 LERNA_FILE=$(git rev-parse --show-toplevel)/lerna.json
 
 git push origin release
-git push origin v$NEW_VERSION
