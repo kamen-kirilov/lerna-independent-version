@@ -29,7 +29,6 @@ git checkout -b release
 npx lerna version major --force-publish --yes --no-push --message "Release: %s"
 
 LERNA_FILE=$(git rev-parse --show-toplevel)/lerna.json
-NEW_VERSION=$(awk -F\" '/"version":/ {print $4}' $LERNA_FILE)
 
 git push origin release
 git push origin v$NEW_VERSION
