@@ -3,7 +3,7 @@ import React from 'react';
 export function Footer() {
     return (
         <footer>
-            Footer sssss
+            Footer add-package-conventionalcommits
         </footer>
     );
 }
