@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.4](https://github.com/kamen-kirilov/lerna-independent-version/compare/footer@3.0.3...footer@3.0.4) (2023-03-09)
+
+
+### Bug Fixes
+
+* misspeled of break ([d790606](https://github.com/kamen-kirilov/lerna-independent-version/commit/d790606c404c08b99b9b016858d28cc32cf8ee1a))
+
+
+
+
+
 ## [3.0.3](https://github.com/kamen-kirilov/lerna-independent-version/compare/footer@3.0.2...footer@3.0.3) (2023-03-09)
 
 **Note:** Version bump only for package footer
